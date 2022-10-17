@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.product.delete_product"/>
+      <class name="com.crm.organisation.organisation"/>
+      <class name="com.crm.campaign.Campaign_with_product"/>
+      <class name="com.crm.campaign.create_campaign"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
