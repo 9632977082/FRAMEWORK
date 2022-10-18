@@ -41,6 +41,7 @@ public class organisation extends Base_class
 		WebElement admin = driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']"));
 		w.toHandleMouseActions(driver,admin );
 		home.signout();
+		System.out.println("hi");
 
 	}
 }
